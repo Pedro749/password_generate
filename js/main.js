@@ -3,11 +3,32 @@ const passField = document.getElementById('field');
 
 const sizeSelector = document.getElementById('size');
 const sizeShow = document.getElementById('sizeShow');
+
+const copy = document.getElementById('copy');
+
 sizeShow.innerHTML = sizeSelector.value;
 
 sizeSelector.addEventListener('change', () => {
   sizeShow.innerHTML = sizeSelector.value;
 });
+
+function setTextWithTiming(element, text) {
+  const previousText = element.innerHTML;
+  element.innerHTML = text;
+
+  const interval = setTimeout(() => {
+    element.innerHTML = previousText;
+  }, 1500);
+}
+
+copy.addEventListener('click', () => {
+  const pass = passField.innerText;
+  if (pass === '') return;
+
+  navigator.clipboard.writeText(pass);
+  setTextWithTiming(copy, 'Copiado !');
+});
+
 
 function randonNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
