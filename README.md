@@ -31,7 +31,7 @@
 
 [<img alt="Use" width="350px" src="[https://raw.githubusercontent.com/Colgate13/jogo_da_velha/main/img/tictactoe.png](https://user-images.githubusercontent.com/69980288/214146236-2e3b161a-1608-4175-9618-1f3a2ffd129b.jpg)" />](https://pedro749.github.io/password_generate/)
 
-# :computer: Technologies
+# :computer: Technologies 
 
 This project was made using the follow technologies:
 
