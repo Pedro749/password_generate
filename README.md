@@ -1,6 +1,6 @@
-<p align="center">
+<h1 align="center">
       Password Generate
-</p>
+</h1>
 
 <p align="center">	
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/Pedro749/password_generate?color=774DD6">
@@ -29,7 +29,7 @@
 
 # :computer: Use
 
-[<img alt="Use" width="350px" src="[https://raw.githubusercontent.com/Colgate13/jogo_da_velha/main/img/tictactoe.png](https://user-images.githubusercontent.com/69980288/214146236-2e3b161a-1608-4175-9618-1f3a2ffd129b.jpg)" />](https://pedro749.github.io/password_generate/)
+[<img alt="Use" width="350px" src="https://user-images.githubusercontent.com/69980288/214146236-2e3b161a-1608-4175-9618-1f3a2ffd129b.jpg" />](https://pedro749.github.io/password_generate/)
 
 # :computer: Technologies 
 
