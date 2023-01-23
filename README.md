@@ -21,7 +21,7 @@
 
 # :pushpin: Table of Contents
 
-- [Play](#computer-play)
+- [Use](#computer-use)
 - [Technologies](#computer-technologies)
 - [Features](#rocket-features)
 - [Contributing](#tada-contributing)
@@ -29,7 +29,7 @@
 
 # :computer: Use
 
-[<img alt="Use" width="350px" src="https://user-images.githubusercontent.com/69980288/214146236-2e3b161a-1608-4175-9618-1f3a2ffd129b.jpg" />](https://pedro749.github.io/password_generate/)
+[<img alt="Use" width="450px" src="https://user-images.githubusercontent.com/69980288/214146236-2e3b161a-1608-4175-9618-1f3a2ffd129b.jpg" />](https://pedro749.github.io/password_generate/)
 
 # :computer: Technologies 
 
