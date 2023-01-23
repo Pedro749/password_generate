@@ -22,11 +22,23 @@ function setTextWithTiming(element, text) {
 }
 
 copy.addEventListener('click', () => {
-  const pass = passField.innerText;
+  const pass = passField.value;
+  
   if (pass === '') return;
 
-  navigator.clipboard.writeText(pass);
-  setTextWithTiming(copy, 'Copiado !');
+  try {
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(pass);
+    } else {
+        passField.setSelectionRange(0, passField.value.length);
+        document.execCommand("copy");
+    }
+    setTextWithTiming(copy, 'Copiado!');
+
+  } catch (e) {
+    console.log('Erro ->', e);
+  } 
+  
 });
 
 
@@ -72,5 +84,6 @@ function generate() {
 }
 
 button.addEventListener('click', () => {
-  passField.innerHTML = generate();
+  passField.value = generate();
+  copy.style.display = 'block';
 });
