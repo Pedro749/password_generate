@@ -43,8 +43,4 @@ This project was made using the follow technologies:
 
 **file a new issue** with a respective title and description on the the [password_generate](https://github.com/Pedro749/passeord_generate/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
 
-# :closed_book: License
-
-Released in 2022 :closed_book: License
-This project is under the [MIT license]
 
